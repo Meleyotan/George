@@ -22,8 +22,8 @@ span#hero_button{background-color: transparent; border-top: 2px solid white; pad
 color: #1ac57e; font-family: nexa_regular;cursor: pointer;}
 
 /*First section*/
-div.first_section{background: #f1f1f1;padding: 50px;}
-p#first-section{text-align: justify;width: 90%; margin-right: auto; margin-left: auto;text-align-last: center; line-height: 20px; }
+div.first_section{background: #f1f1f1;padding: 30px;}
+p#first-section{text-align: justify;width: 95%; margin-right: auto; margin-left: auto;text-align-last: center; line-height: 20px; }
 h3#history{color: #1ac57e;}
 
 /*Second section*/
