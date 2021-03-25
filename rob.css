@@ -43,7 +43,7 @@ div.box:hover{transform: scale(1.1);transition: all 1s ease ease-out;}
 p.box_text{text-align: center;margin-top: 60px;color: #ffffff;}
 
 /*Fourth Section*/
-div.fourth_section{background-color: black; text-align:center; color: white;padding: 50px;width: 100%;}/* try text-align: center  #dcd1aa*/
+div.fourth_section{background-color: black; text-align:center; color: white;padding: 50px;}/* try text-align: center  #dcd1aa*/
 h2#hero_titl{font-weight: bolder;}
 p#taglin{width: 90%; font-family: nexa_light;margin-left: auto;margin-right: auto;}
 span#hero_butto{background-color: transparent; border-top: 2px solid white; padding: 5px 8px;
