@@ -45,9 +45,9 @@ p.box_text{text-align: center;margin-top: 60px;color: #ffffff;}
 /*Fourth Section*/
 div.fourth_section{background-color: black; text-align:center; color: white;padding-top: 50px;}/* try text-align: center  #dcd1aa*/
 h2#hero_titl{font-weight: bolder;}
-p#taglin{font-family: nexa_light;margin-left: auto;margin-right: auto;}
+p#taglin{text-align:centre;}
 span#hero_butto{background-color: transparent; border-top: 2px solid white; padding: 5px 8px;
-color: #1ac57e; font-family: nexa_regular;cursor: pointer;}
+color: #1ac57e; font-family: nexa_regular;cursor: pointer;text-align:center;}
 
 /*Touch experience*/
 p#top_links_right > a:hover{ color:#1ac57e;}
