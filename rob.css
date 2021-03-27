@@ -11,6 +11,8 @@ p#title_name{display: inline-block; cursor: pointer;color: white;}
 span#name_green{color: #1ac57e;}
 div.right_links{font-size: small;float: right;display: flex;padding-top: 5px;font-family: nexa_regular;}/*centre it vertically instead of 5px*/
 p#top_links_right{margin-right: 10px;}
+/* p#top_links_right >a ::before{color: white;}
+p#top_links_right > a::after{color: #1ac57e;} */
 p#top_links_right > a{text-decoration: none; color: white;letter-spacing: 0.5px;}
 
 /*Hero*/
@@ -20,10 +22,13 @@ h2#hero_title{margin: 0;font-weight: bolder;}
 p#tagline{width: 70%; font-family: nexa_light;margin-left: auto;margin-right: auto;}
 span#hero_button{background-color: transparent; border-top: 2px solid white; padding: 5px 8px;
 color: #1ac57e; font-family: nexa_regular;cursor: pointer;}
+button{;background-color: transparent;border: none; padding: 20px 20px}
+button:hover{transform: scale(0.98);}
+button::-webkit-textfield-decoration-container{font-family: nexa_regular;}
 
 /*First section*/
-div.first_section{background: #f1f1f1;padding: 30px;}
-p#first-section{text-align: justify;width: 95%; margin-right: auto; margin-left: auto;text-align-last: center; line-height: 20px; }
+div.first_section{background: #f1f1f1;padding: 50px;}
+p#first-section{text-align: justify;width: 90%; margin-right: auto; margin-left: auto;text-align-last: center; line-height: 20px; }
 h3#history{color: #1ac57e;}
 
 /*Second section*/
@@ -37,17 +42,17 @@ div.box{box-shadow: inset 0 1px 12px rgba(0,0,0,0.15);border-radius: 20px;backgr
     width: 160px;
     height: 160px;
     display: inline-block;
-    margin-right: 4%;
-margin-top: 5%;}
+    margin:4%;}
 div.box:hover{transform: scale(1.1);transition: all 1s ease ease-out;}
 p.box_text{text-align: center;margin-top: 60px;color: #ffffff;}
 
 /*Fourth Section*/
-div.fourth_section{background-color: black; text-align:center; color: white;padding-top: 50px;}/* try text-align: center  #dcd1aa*/
-h2#hero_titl{font-weight: bolder;}
-p#taglin{text-align:centre;}
-span#hero_butto{background-color: transparent; border-top: 2px solid white; padding: 5px 8px;
-color: #1ac57e; font-family: nexa_regular;cursor: pointer;text-align:center;}
+div.fourth_section{background-color: black; text-align:center; color: white; 
+    background-size: cover;padding: 30px;}/* try text-align: center  #dcd1aa*/
+h2#hero_title{margin: 0;font-weight: bolder;}
+p#tagline{width: 70%; font-family: nexa_light;margin-left: auto;margin-right: auto;}
+span#hero_button{background-color: transparent; border-top: 2px solid white; padding: 5px 8px;
+color: #1ac57e; font-family: nexa_regular;cursor: pointer;}
 
 /*Touch experience*/
 p#top_links_right > a:hover{ color:#1ac57e;}
